@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gX0G2ieSEqZ/UV7xe2EhCBI3D196L/9mtsyxOrXvEO2eSIefBKmWU95MnFdGu6PlRl5N1/JJrkIe9Ksck8p+gQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DerianConteh-Morgan\\source\\repos\\BarBuddy.UI\\BarBuddy.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DerianConteh-Morgan\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}

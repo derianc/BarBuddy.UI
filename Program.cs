@@ -1,4 +1,6 @@
 using BarBuddy.UI.Data;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,10 +19,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-//#if (RELEASE)
-//    var port = Environment.GetEnvironmentVariable("PORT") ?? "8081";
-//    builder.WebHost.UseUrls($"http://*:{port}");
-//#endif
+#if (RELEASE)
+    var port = Environment.GetEnvironmentVariable("PORT") ?? "8081";
+    builder.WebHost.UseUrls($"http://*:{port}");
+#endif
 
 //app.UseHttpsRedirection();
 
