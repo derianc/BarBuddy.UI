@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BarBuddy\BarBuddy.Data\BarBuddy.Data.csproj" />
+    <ProjectReference Include="..\BarBuddy\BarBuddy.Data\BarBuddy.Data.csproj">
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>
