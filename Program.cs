@@ -1,4 +1,4 @@
-using BarBuddy.Data;
+using BarBuddy.UI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,10 +17,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-#if (RELEASE)
-    var port = Environment.GetEnvironmentVariable("PORT") ?? "8081";
-    builder.WebHost.UseUrls($"http://*:{port}");
-#endif
+//#if (RELEASE)
+//    var port = Environment.GetEnvironmentVariable("PORT") ?? "8081";
+//    builder.WebHost.UseUrls($"http://*:{port}");
+//#endif
 
 //app.UseHttpsRedirection();
 
